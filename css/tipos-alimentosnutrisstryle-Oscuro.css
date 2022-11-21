@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'opens sans';
+}
+
+.contenedor {
+    padding: 20px 0;
+    width: 50%;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-otro {
+    padding: 20px 0;
+    width: 45%;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.subtitulo {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+.textos-header {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-right: 50px;
+    word-spacing: 70px;
+
+}
+
+header {
+    background: #639eaf;
+    height: 90px;
+    text-align: left;
+
+}
+
+.contenido {
+    margin: 3px;
+}
+
+.plato {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, -5);
+}
+
+.caja {
+
+    display: table-cell;
+    padding: 10px;
+    text-align: right;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 150px;
+    margin: auto;
+}
+
+.caja2 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    padding-left: 50px;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 150px;
+    margin: auto;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 5px;
+}
+
+.titulo-contenido {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ingredientes {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #A71955;
+    height: 30px;
+    width: 180px;
+    text-align: center;
+    padding-top: 5px;
+    font-style: none;
+    border-radius: 10px;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.tittle {
+    padding-bottom: 70px;
+}
+
+.final {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+    padding-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #10914F;
+    height: 80px;
+}
+
+.dieta {
+    display: table-cell;
+    height: 300px;
+    width: 75vw;
+    max-width: 750px;
+    min-width: 650px;
+    padding-left: 15%;
+    margin: auto;
+}
+
+.dieta2 {
+    text-align: center;
+
+}
+
+.tabla {
+    padding: 20px;
+    text-align: right;
+    width: 15%;
+}
+
+.lugar {
+    text-align: right;
+
+}
+
+.sidebar-ejemplo {
+    width: 20%;
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    padding-top: 300px;
+}
+
+.container-ejemplo {
+    width: 80%;
+    display: inline-block;
+}
+
+.tabla2 {
+    color: white;
+    margin-left: 250px;
+    margin-right: auto;
+    padding-bottom: 50px;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.ingredientes2 {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #18687F;
+    height: 30px;
+    width: 180px;
+    text-align: center;
+    padding-top: 5px;
+    font-style: none;
+    border-radius: 10px;
+}
+
+tr, th{
+    border: 2px solid white;
+}

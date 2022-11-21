@@ -28,8 +28,8 @@ body {
     color: #00363c;
     font-size: 40px;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 70px;
+    padding-bottom: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
@@ -70,44 +70,6 @@ header {
     box-shadow: 0px 3px 5px rgba(15, 15, 15, -5);
 }
 
-.caja {
-
-    display: table-cell;
-    padding: 10px;
-    text-align: right;
-    padding-left: 50px;
-    padding-bottom: 50px;
-    width: 75vw;
-    max-width: 1000px;
-    min-width: 150px;
-    margin: auto;
-}
-
-.caja2 {
-    font-size: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: table-cell;
-    padding: 10px;
-    text-align: center;
-    padding-left: 50px;
-    width: 75vw;
-    max-width: 1000px;
-    min-width: 150px;
-    margin: auto;
-    display: inline;
-    align-items: center;
-    justify-content: center;
-}
-
-.caja3 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    width: 50%;
-    padding: 5px;
-}
-
 .titulo-contenido {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -122,6 +84,7 @@ header {
     text-align: center;
     padding-top: 5px;
     font-style: none;
+    border-radius: 10px;
 }
 
 .logo {
@@ -136,11 +99,11 @@ header {
 .final {
     text-align: center;
     font-size: 25px;
-    padding-top: 8px;
+    padding-top: 25px;
     padding-left: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: #10914F;
-    height: 50px;
+    height: 80px;
 }
 
 .dieta {
@@ -202,6 +165,7 @@ header {
     text-align: center;
     padding-top: 5px;
     font-style: none;
+    border-radius: 10px;
 }
 
 tr, th{

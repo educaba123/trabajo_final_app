@@ -33,6 +33,11 @@
     </header>
 
     <main>
+      <div class="ventana1" id="vent1">
+        <div id="cerrar1"><a href="javascript:cerrar()"><img src="/src/images/error.png" height="20px" width="20px"></a></div>
+        Se activo correctamente el modo Premium
+      </div>
+
       <section>
         <h1 class="titulo">Perfil</h1>
       </section>
@@ -40,7 +45,9 @@
         
           <table>
           <div class="contenido">
+
               
+
               <article class="dieta2">
                 <img  src="/src/images/usuario-ejemplo.JPG">
               </article>
@@ -80,14 +87,25 @@
                 <tr class="lugar">
                   <td class="tabla">
                     <div class="ingredientes">
-                      <a href="" style="text-decoration: none" style="color:black">Modo oscuro</a>
+                      <a href="Perfil-Oscuro.html" style="text-decoration: none" style="color:black">Modo oscuro</a>
                     </div>
                   </td>
                 </tr>
 
              
               </div>
+              
+              <div class="caja">
+                <tr class="lugar">
+                  <td class="tabla">
+                    <div class="ingredientes3">
+                      <a href="javascript:abrir()" style="text-decoration: none" style="color:black">Plan Premium</a>
+                    </div>
+                  </td>
+                </tr>
 
+             
+              </div>
             
 
               
@@ -108,7 +126,13 @@
     </main>
 
     <script>
+            function abrir() {
+                document.getElementById("vent1").style.display = "block";
+              }
 
+              function cerrar() {
+                document.getElementById("vent1").style.display = "none";
+              }
     </script>
   </body>
 </html>

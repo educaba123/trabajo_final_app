@@ -75,7 +75,6 @@ header{
     padding: 10px;
     text-align: right;
     padding-left: 50px;
-    padding-bottom: 50px;
     width: 75vw;
     max-width: 1000px;
     min-width: 150px;
@@ -117,6 +116,7 @@ header{
     text-align: center;
     padding-top: 5px;
     font-style: none;
+    border-radius: 10px;
 }
 
   .logo{
@@ -160,4 +160,43 @@ header{
 .lugar {
     text-align: right;
     
+}
+
+.ventana1 {
+    background: #fcfcfc;
+    /*width: 30%;*/
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 33px;
+    height: 150px;
+    border: 10px black;
+    border-radius: 22px;
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    display: none;
+    width: 75vw;
+    max-width: 400px;
+    min-width: 250px;
+    margin: auto;
+}
+
+#cerrar1 {
+    position: absolute;
+    right: 3px;
+    top: 1px;
+}
+
+.ingredientes3 {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #20DF7F;
+    height: 30px;
+    width: 180px;
+    text-align: center;
+    padding-top: 5px;
+    font-style: none;
+    border-radius: 10px;
 }

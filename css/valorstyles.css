@@ -18,8 +18,8 @@ body {
     color: #00363c;
     font-size: 40px;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 70px;
+    padding-bottom: 50px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
@@ -28,7 +28,8 @@ body {
     color: #000;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 70px;
     padding-left: 20px;
 }
 
@@ -55,6 +56,7 @@ header{
 }
 
 .plato {
+    height: 300px;
     width: 100%;
     border-radius: 5px;
     box-shadow: 0px 3px 5px rgba(15, 15, 15, -5);
@@ -63,6 +65,8 @@ header{
 .caja{
     display: table-cell;
     padding: 10px;
+    padding-top: 70px;
+    padding-bottom: 100px;
     text-align: center;
     padding-left: 50px;
     width: 75vw;
@@ -85,6 +89,8 @@ header{
     text-align: center;
     padding-top: 5px;
     font-style: none;
+    border-radius: 10px;
+    display:inline-block;
 }
 
   .logo{
@@ -98,11 +104,11 @@ header{
 .final{
     text-align: center;
     font-size: 25px;
-    padding-top: 8px;
+    padding-top: 25px;
     padding-left: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: #10914F;
-    height: 50px;
+    height: 80px;
 }
 
 .ventana1{   
@@ -117,8 +123,8 @@ header{
     border: 10px black;
     border-radius: 22px;
     position: absolute;
-    left: 35%;
-    top: 55%;
+    left: 40%;
+    top: 48%;
     display: none;
     width: 75vw;
     max-width: 400px;

@@ -17,7 +17,7 @@ body {
     color: #00363c;
     font-size: 40px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 70px;
     padding-bottom: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -81,11 +81,12 @@ header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: #FF9F2D;
     height: 30px;
-    width: 100px;
+    width: 200px;
     text-align: center;
     padding-top: 5px;
     font-style: none;
-    display: inline;
+    display:inline-block;
+    border-radius: 10px;
 }
 
 .logo {
@@ -100,11 +101,11 @@ header {
 .final {
     text-align: center;
     font-size: 25px;
-    padding-top: 8px;
+    padding-top: 25px;
     padding-left: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: #10914F;
-    height: 50px;
+    height: 80px;
 }
 
 .ventana1 {
@@ -119,8 +120,8 @@ header {
     border: 10px black;
     border-radius: 22px;
     position: absolute;
-    left: 35%;
-    top: 75%;
+    left: 40%;
+    top: 45%;
     display: none;
     width: 75vw;
     max-width: 400px;
