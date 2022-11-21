@@ -171,16 +171,39 @@ header {
 
 .sidebar-ejemplo {
     width: 20%;
-    background-color: blue;
     position: sticky;
     top: 0;
     display: inline-block;
     vertical-align: top;
-    
+    position: absolute;
+    padding-top: 300px;
 }
 
 .container-ejemplo {
-    background-color: red;
     width: 80%;
     display: inline-block;
+}
+
+.tabla2 {
+    margin-left: 250px;
+    margin-right: auto;
+    padding-bottom: 50px;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.ingredientes2 {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #4887F5;
+    height: 30px;
+    width: 180px;
+    text-align: center;
+    padding-top: 5px;
+    font-style: none;
+}
+
+tr, th{
+    border: 2px solid black;
 }
