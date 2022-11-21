@@ -39,9 +39,10 @@
 
     </header>
     <main>
-
-
-
+        <div class="ventana1" id="vent1">
+            <div id="cerrar1"><a href="javascript:cerrar()"><img src="/src/images/error.png" height="20px" width="20px"></a></div> 
+            Alergia Guardada
+          </div>
 
 
         <section>
@@ -72,7 +73,7 @@
                             height="225">
                     </div>
                     <div class="ingredientes">
-                        <a href="javascript:abrir2()" style="text-decoration: none" style="color:black">Intolerancia a la Glucosa</a>
+                        <a href="javascript:abrir()" style="text-decoration: none" style="color:black">Intolerancia a la Glucosa</a>
                     </div>
                 </article>
             </div>
@@ -85,7 +86,7 @@
                             height="225">
                     </div>
                     <div class="ingredientes">
-                        <a href="javascript:abrir3()" style="text-decoration: none" style="color:black">Intolerancia a la Carne</a>
+                        <a href="javascript:abrir()" style="text-decoration: none" style="color:black">Intolerancia a la Carne</a>
                     </div>
                 </article>
             </div>
@@ -98,7 +99,7 @@
                         <img class="plato" src="/src/images/diabetes.png" class="Arroz a la Cubana" width="350" height="225">
                     </div>
                     <div class="ingredientes">
-                        <a href="javascript:abrir3()" style="text-decoration: none" style="color:black">Diabetes</a>
+                        <a href="javascript:abrir()" style="text-decoration: none" style="color:black">Diabetes</a>
                     </div>
                 </article>
             </div>
@@ -110,7 +111,7 @@
                         <img class="plato" src="/src/images/intolerancia-fructosa.png" class="Arroz a la Cubana" width="350" height="225">
                     </div>
                     <div class="ingredientes">
-                        <a href="javascript:abrir3()" style="text-decoration: none" style="color:black">Intolerancia a la Fructosa</a>
+                        <a href="javascript:abrir()" style="text-decoration: none" style="color:black">Intolerancia a la Fructosa</a>
                     </div>
                 </article>
             </div>
@@ -122,23 +123,29 @@
                         <img class="plato" src="/src/images/intolerancia-insulina.png" class="Arroz a la Cubana" width="350" height="225">
                     </div>
                     <div class="ingredientes">
-                        <a href="javascript:abrir3()" style="text-decoration: none" style="color:black">Intolerancia a la Insulina</a>
+                        <a href="javascript:abrir()" style="text-decoration: none" style="color:black">Intolerancia a la Insulina</a>
                     </div>
                 </article>
             </div>
 
         </div>
-        <section class="portafolio">
-            <div class="contenedor">
-                <h2 class="final">Guardar Cambios</h2>
+        <section class="contenedor">
+            <div class="final">
+              <a href="Perfil.html" style="text-decoration: none" style="color: black">Guardar Cambios</a>
             </div>
-
-        </section>
+    
+          </section>
 
     </main>
 
     <script>
+      function abrir(){
+        document.getElementById("vent1").style.display="block";
+      }
 
+      function cerrar(){
+        document.getElementById("vent1").style.display="none";
+      }
     </script>
 </body>
 
