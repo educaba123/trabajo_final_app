@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "IHC-Aplicativo-movil",
+			"path": "../IHC-Aplicativo-movil"
+		},
+		{
+			"name": "IHC-Aplicativo-movil-1",
+			"path": "../IHC-Aplicativo-movil-1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "landing-page"
+	}
+}

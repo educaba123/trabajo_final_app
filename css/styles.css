@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'opens sans';
+}
+
+.contenedor {
+    padding: 20px 0;
+    width: 90%
+
+}
+
+.titulo{
+    color: #00363c;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.subtitulo{
+    color: #000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+.textos-header{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-right: 50px;
+    word-spacing: 70px;
+    
+}
+
+header{
+  background: #639eaf;
+  height: 90px;
+  text-align: left;
+
+}
+
+.contenido{
+    margin: 3px;   
+}
+
+.plato {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, -5);
+}
+
+.caja{
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    padding-left: 50px;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 250px;
+    margin: auto;
+}
+
+.titulo-contenido{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ingredientes{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #6CFA4D;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding-top: 5px;
+    font-style: none;
+}
+
+  .logo{
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+.tittle{
+    padding-bottom: 70px;
+}
+
+.final{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 8px;
+    padding-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #10914F;
+    height: 50px;
+}
+
+.ventana1{   
+    background: #fcfcfc;
+    /*width: 30%;*/
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: left;
+    padding: 33px;
+    height: 500px;
+    border: 10px black;
+    border-radius: 22px;
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    display: none;
+    width: 75vw;
+    max-width: 900px;
+    min-width: 600px;
+    margin: auto;
+}
+
+#cerrar1{
+    position: absolute;
+    right:3px;
+    top: 1px;
+}
+
+#cerrar2{
+    position: absolute;
+    right:3px;
+    top: 1px;
+}
+
+#cerrar3{
+    position: absolute;
+    right:3px;
+    top: 1px;
+    text-align: right;
+}
